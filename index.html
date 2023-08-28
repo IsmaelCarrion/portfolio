@@ -1,0 +1,113 @@
+<html lang = 'en'>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta http-equiv="X-UA-Compatible" content = "IE-edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href ="./styles.css" rel="stylesheet">
+        <title>BioPage</title>
+    </head>
+    <body>
+        
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-xxl">
+                <a href ="index.html" class="navbar-brand">
+                    <span class="fw-bold text-secondary">
+                        Ismael E.Carrión - Biography Site
+                    </span>
+                </a>
+                <!-- mobile toggler button -->
+                <botton class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label ="Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </botton>
+
+                <!-- navigation bar links -->
+                <div class="collapse navbar-collapse justify-content-end aling-center" id="main-nav">
+                    <ul class ="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Biography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#videoIntro">Video Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>   
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pacmen.html">PacMen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="eyes.html">Eyes Movement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="busTracker.html">Live BusTracker</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- main image and intro text -->
+        <section id = "intro">
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h1>
+                            <div class="display-2">Ismael E. Carrión</div>
+                        </h1>
+                        <span class="fw-bold text-secondary">
+                            email: iecarblan@gmail.com
+                        </span>
+                        <a href = "mailto: iecarrion@gmail.com" class="px-2">Send Email</a>
+                        <a href = "http://linkedin.com/in/ismael-eduardo-carrion-blandon-00ab99279" class="px-1">linkedin</a>
+                        <a href = "https://github.com/IsmaelCarrion" class="px-1">GitHub</a>
+                        <p class="lead my-4 text-muted">
+                            I am an Engineer in Computer Science and have an MBA. I have experience in programming three-tiered information systems,
+                            using tools such as visual basic, for programming the presentation tier and business tier, and sql server for programming
+                            the business rules and storing the system’s information in the data base.                                                                                   
+                        </p>
+                        <p class="lead my-4 text-muted">
+                            I worked for the Central Bank of Nicaragua and developed the system for the generation of the country’s monetary balance and 
+                            started the central bank business intelligence unit. But better than that reduced the time required to generate the monetary 
+                            balances in more that 300% percent.        
+                        </p>
+                        <p class="lead my-4 text-muted">
+                            I also have experience working for the private banking industry, where I have been in charge for coordinating the development
+                            of business intelligence systems for the bank’s business areas, I also coordinated the bank’s web development projects and 
+                            web apps. In the former I have improved the decision-making process of the business in more that 100%, meaning the business 
+                            areas can make better decision in less time. In the former the business processes have also improved their response times in 
+                            more than 50% due to the development of web and mobile apps.    
+                        </p>
+                        <p class="lead my-4 text-muted">
+                            I have advance knowledge in Cyber Security, I have worked closely with the cybersecurity team in a private bank and I have
+                            a cyber security certificate from Harvard university.    
+                        </p>
+                    </div>
+                    <div class="col-md-5 text-center d-none d-md-block">
+                        <img class="img-fluid" src="./assets/iecarrion.png" alt="iecarrion">
+                    </div>
+                </div>                
+            </div>
+        </section>
+        <section id="videoIntro" class="bg-light mt-5">
+            <div class="container-lg">
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <h1>
+                            <div class="display-2 text-center">Video Introduction</div>
+                        </h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center align-items-center">
+                    <div class="col-md-5 text-center text-md-start">
+                        <!-- the video goes here -->
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jB1Xr1hN-NA?si=WBbTFrxH25QN45xc&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    </body>
+    
+</html>

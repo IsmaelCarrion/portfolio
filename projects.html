@@ -1,0 +1,121 @@
+<html lang = 'en'>
+    <head>
+        <meta charset = 'UTF-8'>
+        <meta http-equiv="X-UA-Compatible" content = "IE-edge">
+        <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href ="./styles.css" rel="stylesheet">
+        <title>BioPage</title>
+    </head>
+    <body>
+        
+        <!-- navigation bar -->
+        <nav class="navbar navbar-expand-md navbar-light">
+            <div class="container-xxl">
+                <a href ="index.html#intro" class="navbar-brand">
+                    <span class="fw-bold text-secondary">
+                        Ismael E.Carrión - Biography Site
+                    </span>
+                </a>
+                <!-- mobile toggler button -->
+                <botton class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label ="Toggle">
+                    <span class="navbar-toggler-icon"></span>
+                </botton>
+
+                <!-- navigation bar links -->
+                <div class="collapse navbar-collapse justify-content-end aling-center" id="main-nav">
+                    <ul class ="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">Biography</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html#videoIntro">Video Introduction</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="projects.html">Projects</a>   
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="pacmen.html">PacMen</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="eyes.html">Eyes Movement</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="busTracker.html">Live BusTracker</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+        <!-- projects -->
+        <section id="projects" class ="bg-light mt-5">
+            <div class="container lg">
+                <div class="text-center">
+                    <h2 class="display-2">Projects</h2>    
+                    <p class="lead-text-muted">Some projects that exemplify the use of HTML, CSS, and JavaScript.</p>
+                </div>
+
+                <div class="row my-5 align-items-center justify-content-center g-0">
+                    <div class="col-8 col-lg-4 col-xl-3 p-1">
+                        <div class="card border-1">
+                           <div class="card-body text-center py-4">
+                                <h4 class="card-title">PacMen</h4>
+                                <p class="card-text mx-5 text-muted- d-none d-lg-block">
+                                    The game or program allows the user to add one or more PacMen to the browser and then set them in motion 
+                                    across the screen up and down and from side to side. This program uses CSS  and also uses JavaScript to give
+                                     movement to the PacMen.
+                                </p>                            
+                                <img src="./assets/PacMan1.png" class="card-img-top img-fluid imgSize" alt="img">                                
+                                <a href="pacmen.html" class="btn btn-outline-primary btn-lg mt-3">Goto PacMen</a>
+                                <div class="row">
+                                    <a class="p-2" href="https://github.com/IsmaelCarrion/PacMen">PacMen Github</a>   
+                                </div>
+                           </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-lg-4 col-xl-3 p-1">
+                        <div class="card border-1">
+                           <div class="card-body text-center py-4">
+                                <h4 class="card-title">Eyes Movement</h4>
+                                <p class="card-text mx-5 text-muted- d-none d-lg-block">
+                                    This is a simple exercise that moves a pair of ayes in the direction of the mouse movement. This program 
+                                    uses CSS to give color and shape to the eyes and also uses JavaScript to give movement to the eyes using 
+                                    a mouse event to follow its movement.
+                                </p>                            
+                                <img src="./assets/eye.png" class="card-img-top img-fluid imgSize" alt="img">                                
+                                <a href="eyes.html" class="btn btn-outline-primary btn-lg mt-3">Goto EyesMovement</a>
+                                <div class="row">
+                                    <a class="p-2" href="https://github.com/IsmaelCarrion/EyesMovement">EyesMovement Github</a>   
+                                </div>
+                           </div> 
+                        </div>
+                    </div>
+
+                    <div class="col-8 col-lg-4 col-xl-3 p-1">
+                        <div class="card border-1">
+                           <div class="card-body text-center py-4">
+                                <h4 class="card-title">Live BusTracker</h4>
+                                <p class="card-text mx-5 text-muted- d-none d-lg-block">
+                                    This program fetches information from the MBTA about the location of it buses and uses a map API from mapboxgl to track
+                                     the live movement of the buses. The location of the buses is re-fetched every 15 seconds, updates the information in the 
+                                     map as well. 
+                                </p>                            
+                                <img src="./assets/liveTracker.png" class="card-img-top img-fluid imgSize" alt="img">                                
+                                <a href="busTracker.html" class="btn btn-outline-primary btn-lg mt-3">Goto Live BusTracker</a>
+                                <div class="row">
+                                    <a class="p-2" href="https://github.com/IsmaelCarrion/RealTimeBusTracker">Live BusTracker GitHub</a>   
+                                </div>
+                           </div> 
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js"></script>
+    </body>
+    
+</html>

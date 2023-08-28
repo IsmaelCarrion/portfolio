@@ -1,0 +1,12 @@
+section {
+    padding: 60px 0;
+}
+
+.sectionGame {
+    padding:15px;
+}
+
+.imgSize {
+    max-width: 150px;
+    max-height: 150px;
+}
